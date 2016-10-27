@@ -34,8 +34,13 @@ app.get('/home', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'home.html'));
 }); 
 
+
 app.get('/ui/_1.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '_1.css'));
+});
+
+app.get('/ui/slide-show', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'slide-show.html'));
 });
 
 
