@@ -38,7 +38,7 @@ app.get('/ui/_1.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '_1.css'));
 });
 
-app.get('/home/slide-show.html', function (req, res) {
+app.get('slide-show.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'slide-show.html'));
 });
 
