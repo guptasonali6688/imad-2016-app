@@ -30,7 +30,7 @@ app.get('/article-3',function(req,res){
    res.send('This is our third Article'); 
 });
 
-app.get('/ui/home.html', function (req, res) {
+app.get('/home.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 }); 
 
