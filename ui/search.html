@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="_1.css">
+
+
+<style> 
+
+div.search {
+	display:inline;
+	text-align:center;
+}
+p.s-book {
+	font-size:60px;
+	padding:0px;
+	display:inline;
+	color:black;
+}
+
+input[type=text] {
+    width: 500px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('images/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=submit] {
+	font-size:32px;
+	background-color:grey;
+	color:white;
+}
+
+a {
+	text-decoration:none;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+	font-size:30px;
+	background-color:#33333f;
+	}
+a:hover {
+	background-color:black;
+
+
+</style>
+</head>
+<body>
+
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="book.html">Download-ebook</a></li>
+				<li><a href="feed.html">feedback</a></li>
+				<li><a href="search.php">Search</a></li>
+				
+				<li style="float:right;"><a href="Sign-up.html">Sign-up</a></li>	
+			</ul>
+		
+		<div class="search" >
+			<p class="s-book"><a href="#">Search your E-book</a></p>
+
+			<form name="form1" method="get" action="search.php">
+				<input type="text" name="query" placeholder="Search..">
+				<input type="submit" id="butt" name="submit" value="Search" />
+			</form>
+		</div>
+		
+		
+	
+</body>
+</html>
