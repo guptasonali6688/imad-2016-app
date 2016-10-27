@@ -38,8 +38,9 @@ app.get('/ui/_1.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '_1.css'));
 });
 
-app.get('/ui/slide-show.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'slide-show.html'));
+
+app.get('/ui/d-ebook', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'd-ebook.html'));
 });
 
 
