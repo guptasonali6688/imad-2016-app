@@ -44,8 +44,16 @@ app.get('/ui/slide-show', function (req, res) {
 });
 
 
+app.get('/ui/search.php', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'search.php'));
+});
+
 app.get('/ui/d-ebook', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'd-ebook.html'));
+});
+
+app.get('/ui/sign-up', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'sign-up.html'));
 });
 
 
