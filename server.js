@@ -44,7 +44,7 @@ app.get('/ui/slide-show', function (req, res) {
 });
 
 
-app.get('/ui/search.php', function (req, res) {
+app.get('/ui/search', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'search.php'));
 });
 
