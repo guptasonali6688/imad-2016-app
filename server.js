@@ -72,20 +72,20 @@ app.get('/ui/thank-you-page', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'thank-you-page.html'));
 });
 
-app.get('/ui/Capture.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Capture.png'));
+app.get('/ui/Capture.PNG', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Capture.PNG'));
 });
 
-app.get('/ui/Capture.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Capture.jpg'));
+app.get('/ui/Capture.JPG', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Capture.JPG'));
 });
 
-app.get('/ui/Capture2.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Capture2.png'));
+app.get('/ui/Capture2.PNG', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Capture2.PNG'));
 });
 
-app.get('/ui/Capture8.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Capture8.png'));
+app.get('/ui/Capture8.PNG', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Capture8.PNG'));
 });
 
 
