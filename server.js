@@ -84,8 +84,13 @@ app.get('/ui/Capture2.PNG', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Capture2.PNG'));
 });
 
+
 app.get('/ui/Capture8.PNG', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Capture8.PNG'));
+});
+
+app.get('/ui/search', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'search.html'));
 });
 
 
