@@ -52,8 +52,8 @@ app.get('/ui/d-ebook', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'd-ebook.html'));
 });
 
-app.get('/ui/sign-up', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'sign-up.html'));
+app.get('/ui/Sign-up', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Sign-up.html'));
 });
 
 app.get('/ui/book', function (req, res) {
